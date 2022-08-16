@@ -1,0 +1,32 @@
+.clgreen{
+    color: green;
+}
+
+.clblue{
+    color: blue;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+}
+
+ul{
+    font-size: 14px;
+}
+
+pre{
+    font-size: 14px;
+}
+
+body{
+    margin: 10px;
+}
