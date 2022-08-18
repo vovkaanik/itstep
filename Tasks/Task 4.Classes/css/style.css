@@ -1,0 +1,33 @@
+pre {
+    font-size: 30px;
+    color: #C0C0C0;
+    font-weight: bold;
+    word-spacing: 6px;
+    line-height: 60px;
+    letter-spacing: 3px;
+}
+b {
+    font-weight: bolder;
+}
+
+.even{
+    text-decoration: overline;
+    
+}
+:nth-child(10n+5){
+    text-shadow: 1px 1px 3px orange;
+}
+
+.two{
+    color: rgba(252, 134, 227, 0.3);
+}
+
+.prime{
+    font-weight: 900;
+}
+.sqr{
+    opacity: 0;
+}
+.sqr:hover{
+    opacity: 1;
+}
