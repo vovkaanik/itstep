@@ -1,0 +1,28 @@
+table{
+    background: red;
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+    
+
+}
+
+td{
+    border: 3px solid black;
+}
+
+.t{
+    vertical-align: top;
+}
+
+.b{
+    vertical-align: bottom;
+}
+
+.c{
+    text-align: center;
+}
+
+.r{
+    text-align: right;
+}
