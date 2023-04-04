@@ -1,0 +1,43 @@
+section {
+    background-color: $green;
+}
+
+.main {
+    width: 1295px;
+    height: 87px;
+    display: flex;
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0px;
+
+
+
+        li {
+            display: flex;
+            align-items: center;
+            padding-left: 60px;
+            padding-right: 5px;
+
+            a {
+                color: $white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .record {
+        display: flex;
+        align-items: center;
+        padding-left: 95px;
+
+        a {
+            text-decoration: none;
+            color: $black;
+            padding: 9px 15px 10px 15px;
+            background-color: $white;
+        }
+    }
+}

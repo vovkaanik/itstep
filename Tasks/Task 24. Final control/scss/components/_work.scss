@@ -1,0 +1,158 @@
+.work {
+    // width: 1920px;
+
+    max-width: 1920px;
+    background-color: $white;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+
+
+    .ourworks {
+        width: 413px;
+        height: 286px;
+        padding-left: 70px;
+        padding-top: 160px;
+
+        &_caption {
+            width: 320px;
+            height: 52px;
+
+            .oranje {
+                color: $carrot;
+            }
+
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        &_rubric {
+            width: 413px;
+            height: 108px;
+
+            h3 {
+                font-size: 24px;
+            }
+
+        }
+
+        &_watch {
+            width: 291px;
+            height: 66px;
+            border: 1px solid black;
+            display: flex;
+
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: $black;
+                padding: 20px 40px 20px 40px;
+
+                .btn {
+                    width: 16px;
+                    height: 16px;
+                    background-image: url(./../img/grop.png);
+                    background-repeat: no-repeat;
+                    padding-right: 17px;
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+
+    .tracker {
+        width: 410px;
+        height: 702px;
+        padding-left: 97px;
+        padding-top: 160px;
+
+        &_image {
+            width: 410px;
+            height: 500px;
+            background-image: url(./../img/iphone.png);
+            background-repeat: no-repeat;
+        }
+
+        &_mobil {
+            height: 36px;
+            margin-top: 40px;
+
+            h3 {
+                font-size: 24px;
+            }
+        }
+
+        &_text {
+            height: 81px;
+            margin-top: 18px;
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .univer {
+        width: 410px;
+        height: 702px;
+        padding-left: 20px;
+        padding-top: 160px;
+
+        &_image {
+            width: 410px;
+            height: 500px;
+            background-image: url(./../img/univer\ today.png);
+            background-repeat: no-repeat;
+        }
+
+        &_today {
+            height: 36px;
+            margin-top: 40px;
+
+            h3 {
+                font-size: 24px;
+            }
+        }
+
+        &_text {
+            height: 108px;
+            margin-top: 18px;
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .blog {
+        width: 410px;
+        height: 702px;
+        padding-left: 20px;
+        padding-top: 160px;
+
+        &_image {
+            width: 410px;
+            height: 500px;
+            background-image: url(./../img/tracker.png);
+            background-repeat: no-repeat;
+        }
+
+        &_educational {
+            height: 36px;
+            margin-top: 40px;
+
+            h3 {
+                font-size: 24px;
+            }
+        }
+
+        &_text {
+            height: 54px;
+            margin-top: 18px;
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}

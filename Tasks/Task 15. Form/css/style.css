@@ -1,0 +1,26 @@
+div {
+    position: relative;
+    box-sizing: border-box;
+    background: white;
+
+}
+
+body {
+    background: wheat;
+    width: 440px;
+    margin: 0 auto;
+    float: none;
+}
+
+.form {
+    padding: 10px;
+}
+
+
+
+.container {
+    width: 440px;
+    margin: 0 auto;
+    float: none;
+    background: #fff;
+}

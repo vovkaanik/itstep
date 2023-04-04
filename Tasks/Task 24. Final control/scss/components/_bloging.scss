@@ -1,0 +1,172 @@
+.bloging {
+    background-color: $beige;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+
+    .list {
+        width: 353px;
+        height: 246px;
+        padding-left: 70px;
+        padding-top: 160px;
+
+        &_new {
+            width: 113px;
+            height: 52px;
+
+            h2 {
+                font-size: 40px;
+                line-height: 52px;
+            }
+        }
+
+        &_rubric {
+            height: 68px;
+            margin-top: 30px;
+
+            h3 {
+                font-size: 24px;
+                line-height: 33px;
+            }
+        }
+
+        &_watchq {
+            width: 278px;
+            height: 66px;
+            border: 1px solid black;
+            display: flex;
+            margin-top: 30px;
+
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: $black;
+                padding: 20px 40px 20px 40px;
+
+                .btnn {
+                    width: 16px;
+                    height: 16px;
+                    background-image: url(./../img/grop.png);
+                    background-repeat: no-repeat;
+                    padding-right: 17px;
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+
+    .month {
+        width: 430px;
+        height: 546px;
+        background-color: $white;
+        margin-left: 97px;
+        margin-top: 160px;
+
+        &_image {
+            width: 190px;
+            height: 190px;
+            background-image: url(./../img/Teamwork.png);
+            background-repeat: no-repeat;
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+
+        &_result {
+            height: 26px;
+            margin-top: 30px;
+            margin-left: 50px;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        &_textual {
+            height: 96px;
+            margin-top: 18px;
+            margin-left: 50px;
+            margin-right: 52px;
+
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .market {
+        width: 430px;
+        height: 546px;
+        background-color: $white;
+        margin-left: 20px;
+        margin-top: 160px;
+
+        &_image {
+            width: 190px;
+            height: 190px;
+            background-image: url(./../img/Teamworkkk.png);
+            background-repeat: no-repeat;
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+
+        &_mouthpiece {
+            height: 26px;
+            margin-top: 30px;
+            margin-left: 50px;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        &_textual {
+            height: 96px;
+            margin-top: 18px;
+            margin-left: 50px;
+            margin-right: 50px;
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    .mail {
+        width: 430px;
+        height: 546px;
+        background-color: $white;
+        margin-left: 20px;
+        margin-top: 160px;
+
+        &_image {
+            width: 190px;
+            height: 190px;
+            background-image: url(./../img/Teamwork1.png);
+            background-repeat: no-repeat;
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+
+        &_cloud {
+            height: 52px;
+            margin-top: 30px;
+            margin-left: 50px;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        &_textual {
+            height: 96px;
+            margin-top: 18px;
+            margin-left: 50px;
+            margin-right: 52px;
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}

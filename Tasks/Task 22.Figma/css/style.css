@@ -1,0 +1,157 @@
+.container {
+  width: 1295px;
+  position: relative;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Light.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-ExtraBold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+html, body {
+  font-family: "Gilroy", sans-serif;
+}
+
+.header {
+  width: 1295px;
+  height: 90px;
+  display: flex;
+}
+.header_logo {
+  border-left: 1px solid silver;
+  padding: 18px 36px;
+}
+.header_phone {
+  border-left: 1px solid silver;
+  padding: 36px 30px;
+}
+.header_phone a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+.header_salons {
+  border-left: 1px solid silver;
+  padding: 36px 30px;
+}
+.header_salons a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+}
+.header_salons a .btn {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/look.png);
+  margin-left: 15px;
+}
+.header_special {
+  border-left: 1px solid silver;
+  display: flex;
+  padding: 25px 30px;
+}
+.header_special a {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #00868A;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 13px 15px 11px 15px;
+}
+.header_special a .eye {
+  width: 27px;
+  height: 21px;
+  background-image: url(../img/eye.png);
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
+.header_social {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+.header_social ul {
+  border-left: 1px solid silver;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+.header_social ul li {
+  border-right: 1px solid silver;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 0px 24px;
+}
+.header_social ul li a {
+  width: 24px;
+  height: 24px;
+}
+.header_social ul li a.vk {
+  background-image: url(../img/vk.png);
+}
+.header_social ul li a.yt {
+  background-image: url(../img/youtube.png);
+}
+.header_social ul li a.fb {
+  background-image: url(../img/facebook.png);
+}
+.header_social ul li a.ig {
+  background-image: url(../img/instagram.png);
+}
+
+section {
+  background-color: #4FBFA5;
+}
+
+.main {
+  width: 1295px;
+  height: 87px;
+  display: flex;
+}
+.main ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+.main ul li {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 5px;
+}
+.main ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+.main .record {
+  display: flex;
+  align-items: center;
+  padding-left: 95px;
+}
+.main .record a {
+  text-decoration: none;
+  color: black;
+  padding: 9px 15px 10px 15px;
+  background-color: #FFFFFF;
+}
+
+.info_cosmetology h2 {
+  color: #FFFFFF;
+  font-size: 48px;
+}
+.info_cosmetology p {
+  color: #FFFFFF;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */

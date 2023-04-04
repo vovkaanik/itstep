@@ -1,0 +1,133 @@
+.form {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+
+    .us {
+        width: 422px;
+        height: 250px;
+        padding-top: 160px;
+        padding-left: 70px;
+
+        &_connec {
+            width: 422px;
+            height: 56px;
+
+            h2 {
+                font-size: 40px;
+
+                .orange {
+                    color: $carrot;
+                }
+            }
+        }
+
+        &_location {
+            width: 401px;
+            height: 164px;
+
+            ul {
+                list-style: none;
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    padding-top: 18px;
+                    display: flex;
+
+                    a {
+                        text-decoration: none;
+                        color: $black;
+                        background-repeat: no-repeat;
+                        padding-left: 60px;
+                        font-size: 24px;
+
+                        &.mobil {
+                            background-image: url(./../img/bi_phone.png);
+                            height: 30px;
+                        }
+
+                        &.address {
+                            background-image: url(./../img/bi_pin-map.png);
+                            height: 30px;
+                        }
+
+                        &.mail {
+                            background-image: url(./../img/eva_email-outline.png);
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .control {
+        width: 1060px;
+        height: 660px;
+        margin-left: 298px;
+        margin-top: 160px;
+        border: 1px solid silver;
+
+
+        &_lineOne {
+            width: 820px;
+            height: 49px;
+            padding-left: 120px;
+            padding-top: 90px;
+            display: flex;
+
+
+            &_name input[type="text"] {
+                width: 359px;
+                height: 49px;
+                border: 1px solid white;
+                border-bottom: 1px solid silver;
+            }
+
+            &_number input[type="text"] {
+                width: 359px;
+                height: 49px;
+                margin-left: 102px;
+                border: 1px solid white;
+                border-bottom: 1px solid silver;
+            }
+        }
+
+        &_lineTwo {
+            width: 820px;
+            height: 49px;
+            padding-left: 120px;
+            padding-top: 60px;
+            display: flex;
+
+
+            &_surname input[type="text"] {
+                width: 359px;
+                height: 49px;
+                border: 1px solid white;
+                border-bottom: 1px solid silver;
+            }
+
+            &_email input[type="text"] {
+                width: 359px;
+                height: 49px;
+                margin-left: 102px;
+                border: 1px solid white;
+                border-bottom: 1px solid silver;
+            }
+
+        }
+
+        &_mew textarea[type="submit"] {
+            width: 820px;
+            height: 49px;
+            margin-left: 120px;
+            margin-top: 60px;
+            border: 1px solid white;
+            border-bottom: 1px solid silver;
+        }
+
+
+    }
+}

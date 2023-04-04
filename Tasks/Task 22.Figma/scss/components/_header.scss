@@ -1,0 +1,117 @@
+.header {
+    width: 1295px;
+    height: 90px;
+    display: flex;
+
+
+    &_logo {
+        border-left: 1px solid silver;
+        padding: 18px 36px;
+    }
+
+    &_phone {
+        border-left: 1px solid silver;
+        padding: 36px 30px;
+
+        a {
+            color: $black;
+            font-size: 16px;
+            text-decoration: none;
+
+        }
+
+    }
+
+    &_salons {
+        border-left: 1px solid silver;
+        padding: 36px 30px;
+
+        a {
+            color: $black;
+            font-size: 16px;
+            text-decoration: none;
+            display: flex;
+
+
+
+            .btn {
+                width: 20px;
+                height: 20px;
+                background-image: url(../img/look.png);
+                margin-left: 15px;
+
+            }
+
+        }
+    }
+
+
+    &_special {
+        border-left: 1px solid silver;
+        display: flex;
+        padding: 25px 30px;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            background-color: $bluegreen;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            padding: 13px 15px 11px 15px;
+
+
+            .eye {
+                width: 27px;
+                height: 21px;
+                background-image: url(../img/eye.png);
+                margin-right: 10px;
+                background-repeat: no-repeat;
+
+            }
+        }
+
+    }
+
+    &_social {
+        display: flex;
+        align-items: center;
+        height: 90px;
+
+        ul {
+            border-left: 1px solid silver;
+            list-style: none;
+            display: flex;
+            padding: 0px;
+
+            li {
+                border-right: 1px solid silver;
+                height: 90px;
+                display: flex;
+                align-items: center;
+                padding: 0px 24px;
+
+                a {
+                    width: 24px;
+                    height: 24px;
+
+                    &.vk {
+                        background-image: url(../img/vk.png);
+                    }
+
+                    &.yt {
+                        background-image: url(../img/youtube.png);
+                    }
+
+                    &.fb {
+                        background-image: url(../img/facebook.png);
+                    }
+
+                    &.ig {
+                        background-image: url(../img/instagram.png);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.info {
+    font-family: 'Mulish', sans-serif;
+
+    &_heading {
+        width: 1132px;
+        height: 192px;
+        padding-left: 70px;
+
+        h1 {
+            font-size: 80px;
+            line-height: 96px;
+        }
+
+    }
+
+    &_service {
+        width: 820px;
+        height: 96px;
+        padding-left: 70px;
+        padding-top: 40px;
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    &_list {
+        padding-left: 70px;
+        display: flex;
+        width: 798px;
+        height: 230px;
+        padding-top: 100px;
+
+        .info-list_lost {
+            width: 183px;
+            height: 199px;
+            margin: 0px;
+            border-right: 1px solid black;
+            padding-right: 135px;
+
+            ul {
+                list-style: none;
+                padding: 0px;
+
+                li {
+                    margin-bottom: 30px;
+
+                    a {
+                        color: $black;
+                        text-decoration: none;
+
+                        .oranje {
+                            color: $carrot;
+                        }
+
+                        p {
+                            font-size: 20px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .web {
+            padding-left: 42px;
+            height: 230px;
+            width: 438px;
+
+            &_image {
+                background-image: url(./../img/logo1.png);
+                width: 103px;
+                height: 73px;
+                background-repeat: no-repeat;
+                margin-left: 42px;
+            }
+
+            &_title {
+                width: 201px;
+                height: 28px;
+                padding-left: 42px;
+                margin-top: 30px;
+
+                p {
+                    font-size: 22px;
+                }
+            }
+
+            &_text {
+                width: 438px;
+                height: 84px;
+                padding-left: 42px;
+                margin-top: 15px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    &_chart {
+        width: 786px;
+        height: 564px;
+        background-image: url(./../img/chart.png);
+        background-repeat: no-repeat;
+        margin-left: 1045px;
+        margin-top: -505px;
+    }
+}

@@ -1,0 +1,86 @@
+.header {
+    height: 140px;
+    font-family: 'Mulish', sans-serif;
+
+    &_row {
+        display: flex;
+        align-items: center;
+
+
+        &_logo {
+            padding: 48px 0 47px 0;
+        }
+
+        &_menu {
+            padding-left: 202px;
+
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 50px;
+
+                    a {
+                        font-size: 20px;
+                        color: $black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        &_langs {
+            padding-left: 410px; // 430 должно
+
+
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0;
+
+                li {
+
+                    a {
+                        font-size: 20px;
+                        color: $black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        &_button {
+            padding-left: 35px;
+
+            a {
+                font-size: 20px;
+                color: $white;
+                text-decoration: none;
+                background-color: $orange;
+                padding: 22px 50px;
+                height: 67px;
+                width: 240px;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+}

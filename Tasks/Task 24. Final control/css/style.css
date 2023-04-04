@@ -1,0 +1,66 @@
+.header {
+  height: 140px;
+  font-family: "Mulish", sans-serif;
+}
+.header_row {
+  display: flex;
+  align-items: center;
+}
+.header_row_logo {
+  padding: 48px 0 47px 0;
+}
+.header_row_menu {
+  padding-left: 202px;
+}
+.header_row_menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.header_row_menu ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.header_row_menu ul li a {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.header_row_langs {
+  padding-left: 410px;
+}
+.header_row_langs ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.header_row_langs ul li a {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.header_row_button {
+  padding-left: 35px;
+}
+.header_row_button a {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #F6523C;
+  padding: 22px 50px;
+  height: 67px;
+  width: 240px;
+}
+
+.container {
+  max-width: 1780px;
+  margin: 0 auto;
+}
+
+.section {
+  font-family: "Mulish", sans-serif;
+}
+.section_row_text h1 {
+  font-size: 80px;
+}/*# sourceMappingURL=style.css.map */

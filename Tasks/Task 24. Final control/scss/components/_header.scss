@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+    align-items: center;
+
+    &_logo {
+        padding: 48px 0px 47px 70px;
+    }
+
+    &_main {
+        padding-left: 152px;
+
+        ul {
+            display: flex;
+            list-style: none;
+            padding: 0px;
+
+            li {
+                display: flex;
+                align-items: center;
+                padding-left: 50px;
+
+                a {
+                    color: $black;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: $black;
+
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    &_language {
+        padding-left: 480px;
+
+        a {
+            font-size: 20px;
+            color: $black;
+        }
+    }
+
+    &_connection {
+        padding-left: 35px;
+        padding-top: 37px;
+        width: 240px;
+        height: 67px;
+
+        a {
+            text-decoration: none;
+            background-color: $carrot;
+            color: $white;
+            padding: 22px 43px;
+        }
+    }
+}

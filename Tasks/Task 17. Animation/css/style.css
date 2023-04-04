@@ -1,0 +1,52 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+a {
+    position: fixed;
+    display: block;
+    color: #fff;
+    background: black;
+    padding: 15px 20px;
+    top: 40px;
+}
+
+.start {
+    left: calc(50% - 150px);
+}
+
+.end {
+    left: calc(50% + 30px);
+}
+
+.box {
+position: fixed;
+top: 0px;
+left: 0px;
+
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid blue;
+transition-property: top, left, background, border-bottom, width, height;
+transition-timing-function: linear;
+transition-duration: 8s;
+
+}
+
+#box:target {
+    top: calc(100% - 200px);
+    left:  calc(100% - 200px);
+    width: 150px;
+    height: 100px;
+    background: pink;
+    border-bottom: 100px;
+    transform: skew(200deg);
+
+}
+
+

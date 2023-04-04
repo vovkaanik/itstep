@@ -1,0 +1,146 @@
+.technology {
+    background-color: $black;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+
+    .stages {
+        width: 395px;
+        height: 150px;
+        padding-left: 70px;
+        padding-top: 160px;
+
+        &_working {
+            width: 329px;
+            height: 52px;
+
+            h2 {
+                font-size: 40px;
+                color: $white;
+                line-height: 56px;
+            }
+        }
+
+        &_title {
+            height: 65px;
+            margin-top: 30px;
+
+            h3 {
+                font-size: 24px;
+                color: $white;
+                line-height: 34px;
+            }
+        }
+    }
+
+    .list {
+        width: 1068px;
+        height: 528px;
+        padding-left: 317px;
+        padding-top: 160px;
+
+        &_one {
+            width: 1068px;
+            height: 132px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid white;
+
+            .number {
+
+                p {
+                    color: $carrot;
+                    font-size: 48px;
+                }
+            }
+
+            .advantages {
+                width: 949px;
+                color: $white;
+                padding-left: 60px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        &_two {
+            width: 1068px;
+            height: 132px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid white;
+
+            .number {
+
+                p {
+                    color: $carrot;
+                    font-size: 48px;
+                }
+            }
+
+            .advantages {
+                width: 949px;
+                color: $white;
+                padding-left: 60px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        &_fhree {
+            width: 1068px;
+            height: 132px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid white;
+
+            .number {
+
+                p {
+                    color: $carrot;
+                    font-size: 48px;
+                }
+            }
+
+            .advantages {
+                width: 949px;
+                color: $white;
+                padding-left: 60px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        &_four {
+            width: 1068px;
+            height: 132px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+
+            .number {
+
+                p {
+                    color: $carrot;
+                    font-size: 48px;
+                }
+            }
+
+            .advantages {
+                width: 949px;
+                color: $white;
+                padding-left: 60px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.section {
+    font-family: 'Mulish', sans-serif;
+    display: block;
+
+    &_row {
+        height: 898px;
+
+        &_text {
+
+            h1 {
+                font-size: 80px;
+            }
+        }
+
+    }
+}

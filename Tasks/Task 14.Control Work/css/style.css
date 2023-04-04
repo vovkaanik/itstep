@@ -1,0 +1,131 @@
+.hhh {
+    width: 100%;
+    background: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    align-content: flex-start;
+}
+
+
+
+.bl1 {
+    width: 400px;
+    height: 300px;
+    background: url(../img/img3.png);
+}
+
+.bl2 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img7.png);
+}
+
+.bl3 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img9.png);
+}
+
+.bl4 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img5.png);
+}
+
+.bl5 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img2.png);
+}
+
+.bl6 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img8.png);
+}
+
+.bl7 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img4.png);
+}
+
+.bl8 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/img1.png);
+}
+
+.hhh1 {
+    width: 100%;
+    height: 450px;
+
+}
+
+.world1 {
+    background-image: url(../img/img6.png);
+    width: 600px;
+    height: 450px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+}
+
+.inform {
+    font-size: 20px;
+
+}
+
+.uuuu {
+
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-left: 250px;
+}
+
+
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.button {
+    border: 2px solid black;
+    color: black;
+    margin: 20px 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 468px;
+    }
+
+}
